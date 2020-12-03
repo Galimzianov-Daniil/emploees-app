@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import TextField from "@material-ui/core/TextField";
@@ -10,7 +10,6 @@ import FormControl from "@material-ui/core/FormControl";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import FormLabel from "@material-ui/core/FormLabel";
 import Grid from "@material-ui/core/Grid";
-import Button from "@material-ui/core/Button";
 import {connect} from "react-redux";
 import {createEmployee} from "../../redux/reducers/employeeReducer";
 import {IEmployee} from "../../interfaces";
@@ -20,12 +19,11 @@ interface IEmployeeFormPresentationProps {
     handleSubmit: (e: React.SyntheticEvent) => void,
     handleCheckbox: (e: React.ChangeEvent<HTMLInputElement>) => void,
     data: IEmployee,
-    buttonText: string,
     CustomButton: React.FC
 }
 
 const EmployeeFormPresentation: React.FC<IEmployeeFormPresentationProps>
-    = ({handleChange, handleSubmit, data, handleCheckbox, buttonText, CustomButton}) => {
+    = ({handleChange, handleSubmit, data, handleCheckbox, CustomButton}) => {
 
     return (
         <>
