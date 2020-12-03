@@ -11,31 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f31a86bb-3615-453c-989b-c70a9c40bd7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/EmployeeForm/CreateNewEmployee.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EmployeeForm/EmployeeFormPresentation.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EmployeeForm/UpdateEmployee.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EmployeeRow.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EmployeesList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/InstrumentPanel.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dal/main.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/common.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/entities.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/states.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/employeeReducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +42,23 @@
       <recent name="C:\Users\danya\OneDrive\Рабочий стол\Архивы сайтов и макетов\emploees-app\src\styles" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="gh-deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="gh-deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.gh-deploy" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,7 +70,7 @@
       <workItem from="1606808199230" duration="132000" />
       <workItem from="1606808349548" duration="4029000" />
       <workItem from="1606893530203" duration="22614000" />
-      <workItem from="1606976795984" duration="8192000" />
+      <workItem from="1606976795984" duration="8637000" />
     </task>
     <servers />
   </component>
