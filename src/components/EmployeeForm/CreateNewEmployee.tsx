@@ -1,14 +1,20 @@
-import React, {useState} from "react"
-import { connect } from "react-redux";
-import {IEmployee} from "../../interfaces/entities";
-import EmployeeForm from "./EmployeeFormPresentation";
-import {createEmployee} from "../../redux/reducers/employeeReducer";
+import React, {useState} from "react";
 
-const CreateNewEmployee: React.FC<{ createEmployee: any }> = ({ createEmployee }) => {
+import EmployeeForm from "./EmployeeFormPresentation";
+import {connect} from "react-redux";
+import {createEmployee} from "../../redux/reducers/employeeReducer";
+import {IEmployee} from "../../interfaces";
+import Button from "@material-ui/core/Button";
+
+interface ICreateNewEmployeeProps {
+    createEmployee: (data: IEmployee) => void
+}
+
+const CreateNewEmployee: React.FC<ICreateNewEmployeeProps> = ({createEmployee}) => {
 
     const initialData: IEmployee = {
         position: " ",
-        name: " ",
+        name: "",
         birthday: "",
         isFired: false,
         gender: " ",
@@ -23,15 +29,16 @@ const CreateNewEmployee: React.FC<{ createEmployee: any }> = ({ createEmployee }
     }
 
     const handleCheckbox = (e: React.ChangeEvent<HTMLInputElement>) => {
-        setData({ ...data, [e.target.name]: e.target.checked });
+        setData({...data, [e.target.name]: e.target.checked});
     };
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        setData({ ...data,  [e.target.name]: e.target.value})
+        setData({...data, [e.target.name]: e.target.value});
     }
 
     return (
         <EmployeeForm
+            CustomButton={() => <Button variant="contained" color="primary" type="submit">Создать</Button>}
             buttonText="Создать"
             handleChange={handleChange}
             handleCheckbox={handleCheckbox}
@@ -42,4 +49,4 @@ const CreateNewEmployee: React.FC<{ createEmployee: any }> = ({ createEmployee }
 
 }
 
-export default connect(null, { createEmployee })(CreateNewEmployee)
+export default connect(null, {createEmployee})(CreateNewEmployee);

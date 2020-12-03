@@ -1,19 +1,27 @@
 import React, {useState} from "react";
 import { connect } from "react-redux";
-import {IEmployee} from "../../interfaces/entities";
+import {IEmployee} from "../../interfaces";
 import EmployeeForm from "./EmployeeFormPresentation";
 import {updateEmployee} from "../../redux/reducers/employeeReducer";
+import Button from "@material-ui/core/Button";
 
 
-const UpdateEmployee: React.FC<{ employee: IEmployee, updateEmployee: any }> = ({ employee, updateEmployee }) => {
+interface IUpdateEmployeeProps {
+    employee: IEmployee,
+    updateEmployee: (data: IEmployee) => void,
+    close: () => void
+}
+
+const UpdateEmployee: React.FC<IUpdateEmployeeProps> = ({ employee, updateEmployee, close }) => {
 
     const [data, setData] = useState(employee)
     const [isChanged, setChanged] = useState(false)
-    console.log(employee)
+
     const handleSubmit = (e: React.SyntheticEvent) => {
         e.preventDefault();
         updateEmployee(data);
         alert("Данные успешно обновлены");
+        close();
     }
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -28,6 +36,7 @@ const UpdateEmployee: React.FC<{ employee: IEmployee, updateEmployee: any }> = (
 
     return (
         <EmployeeForm
+            CustomButton={() => <Button disabled={!isChanged} variant="contained" color="primary" type="submit">Обновить</Button>}
             buttonText="Обновить"
             handleChange={handleChange}
             handleCheckbox={handleCheckbox}

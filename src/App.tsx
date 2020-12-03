@@ -4,10 +4,9 @@ import InstrumentPanel from "./components/InstrumentPanel";
 import EmployeesList from "./components/EmployeesList";
 import CreateNewEmployee from "./components/EmployeeForm/CreateNewEmployee";
 import {getEmployees} from "./redux/reducers/employeeReducer";
-import { func } from './interfaces/common';
 import { connect } from 'react-redux';
 
-const App: React.FC<{ getEmployees: func }> = ({ getEmployees }) => {
+const App: React.FC<{ getEmployees: () => void }> = ({ getEmployees }) => {
 
     useEffect(() => getEmployees(),[])
 

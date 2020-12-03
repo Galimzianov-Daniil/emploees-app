@@ -11,8 +11,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f31a86bb-3615-453c-989b-c70a9c40bd7d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/interfaces.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EmployeeForm/CreateNewEmployee.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EmployeeForm/CreateNewEmployee.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EmployeeForm/EmployeeFormPresentation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EmployeeForm/EmployeeFormPresentation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EmployeeForm/UpdateEmployee.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EmployeeForm/UpdateEmployee.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EmployeeRow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EmployeeRow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EmployeesList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EmployeesList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InstrumentPanel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InstrumentPanel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dal/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/dal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/common.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/entities.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/states.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/employeeReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/employeeReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +54,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danya\OneDrive\Рабочий стол\Архивы сайтов и макетов\emploees-app\src" />
       <recent name="C:\Users\danya\OneDrive\Рабочий стол\Архивы сайтов и макетов\emploees-app\src\components\EmployeeForm" />
       <recent name="C:\Users\danya\OneDrive\Рабочий стол\Архивы сайтов и макетов\emploees-app\src\components" />
       <recent name="C:\Users\danya\OneDrive\Рабочий стол\Архивы сайтов и макетов\emploees-app\src\styles" />
@@ -81,7 +99,8 @@
       <workItem from="1606808199230" duration="132000" />
       <workItem from="1606808349548" duration="4029000" />
       <workItem from="1606893530203" duration="22614000" />
-      <workItem from="1606976795984" duration="9097000" />
+      <workItem from="1606976795984" duration="10870000" />
+      <workItem from="1607008869271" duration="3425000" />
     </task>
     <servers />
   </component>
@@ -105,26 +124,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="701" y="310" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606898965590" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606982131524">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607010104939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606982131524" />
-    <state width="1899" height="287" key="GridCell.Tab.0.bottom" timestamp="1606986661235">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1607010104939" />
+    <state width="1899" height="287" key="GridCell.Tab.0.bottom" timestamp="1606989951159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="287" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606986661235" />
-    <state width="1899" height="287" key="GridCell.Tab.0.center" timestamp="1606986661235">
+    <state width="1899" height="287" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606989951159" />
+    <state width="1899" height="287" key="GridCell.Tab.0.center" timestamp="1606989951159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="287" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606986661235" />
-    <state width="1899" height="287" key="GridCell.Tab.0.left" timestamp="1606986661235">
+    <state width="1899" height="287" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606989951159" />
+    <state width="1899" height="287" key="GridCell.Tab.0.left" timestamp="1606989951157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="287" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606986661235" />
-    <state width="1899" height="287" key="GridCell.Tab.0.right" timestamp="1606986661235">
+    <state width="1899" height="287" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606989951157" />
+    <state width="1899" height="287" key="GridCell.Tab.0.right" timestamp="1606989951159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="287" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606986661235" />
+    <state width="1899" height="287" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606989951159" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1606901064815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

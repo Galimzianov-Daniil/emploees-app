@@ -6,8 +6,13 @@ import {connect} from "react-redux";
 import {deleteSelectedEmployee, getEmployees} from "../redux/reducers/employeeReducer";
 
 
-const InstrumentPanel: React.FC<{ selectedEmployeeId: number, deleteSelectedEmployee: any, getEmployees: any }> =
-    ({selectedEmployeeId, deleteSelectedEmployee, getEmployees}) => {
+interface IInstrumentPanelProps {
+    selectedEmployeeId: number,
+    deleteSelectedEmployee: (id: number) => void,
+    getEmployees: () => void
+}
+
+const InstrumentPanel: React.FC<IInstrumentPanelProps> = ({selectedEmployeeId, deleteSelectedEmployee, getEmployees}) => {
         return (
             <Box mt={2} mb={5}>
                 <ButtonGroup color="primary" aria-label="contained primary button group">

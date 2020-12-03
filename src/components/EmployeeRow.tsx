@@ -5,12 +5,18 @@ import TableRow from "@material-ui/core/TableRow";
 import Dialog from "@material-ui/core/Dialog";
 import {selectEmployeeAC} from "../redux/reducers/employeeReducer";
 import {connect} from "react-redux";
-import {IEmployee} from "../interfaces/entities";
+import {IEmployee} from "../interfaces";
 import UpdateEmployee from "./EmployeeForm/UpdateEmployee";
 import DialogContent from "@material-ui/core/DialogContent";
 
 
-const EmployeeRow: React.FC<{ selectedEmployeeId: number, employee: IEmployee, selectEmployee: any }> = ({selectedEmployeeId, employee, selectEmployee}) => {
+interface IEmployeeRowProps {
+    selectedEmployeeId: number,
+    employee: IEmployee,
+    selectEmployee: (payload: number) => void
+}
+
+const EmployeeRow: React.FC<IEmployeeRowProps> = ({selectedEmployeeId, employee, selectEmployee}) => {
 
     const [open, setOpen] = useState(false);
 
@@ -30,7 +36,7 @@ const EmployeeRow: React.FC<{ selectedEmployeeId: number, employee: IEmployee, s
                     профиль</Button>
                 <Dialog open={open} onClose={() => setOpen(false)}>
                     <DialogContent>
-                        <UpdateEmployee employee={employee}/>
+                        <UpdateEmployee employee={employee} close={() => setOpen(false)}/>
                     </DialogContent>
                 </Dialog>
             </TableCell>

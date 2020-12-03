@@ -13,11 +13,19 @@ import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import {connect} from "react-redux";
 import {createEmployee} from "../../redux/reducers/employeeReducer";
-import {IEmployee} from "../../interfaces/entities";
+import {IEmployee} from "../../interfaces";
 
+interface IEmployeeFormPresentationProps {
+    handleChange: (e: React.ChangeEvent<HTMLInputElement>) => void,
+    handleSubmit: (e: React.SyntheticEvent) => void,
+    handleCheckbox: (e: React.ChangeEvent<HTMLInputElement>) => void,
+    data: IEmployee,
+    buttonText: string,
+    CustomButton: React.FC
+}
 
-const EmployeeFormPresentation: React.FC<{ handleChange: any, handleSubmit: any, data: IEmployee, handleCheckbox: any, buttonText: string}>
-    = ({handleChange, handleSubmit, data, handleCheckbox, buttonText}) => {
+const EmployeeFormPresentation: React.FC<IEmployeeFormPresentationProps>
+    = ({handleChange, handleSubmit, data, handleCheckbox, buttonText, CustomButton}) => {
 
     return (
         <>
@@ -34,7 +42,7 @@ const EmployeeFormPresentation: React.FC<{ handleChange: any, handleSubmit: any,
                         fullWidth
                         name="name"
                         onChange={handleChange}
-                        value={data.name.trim()}
+                        value={data.name}
                     />
                 </Grid>
 
@@ -86,8 +94,8 @@ const EmployeeFormPresentation: React.FC<{ handleChange: any, handleSubmit: any,
                     </FormControl>
                 </Grid>
                 <Grid item xs={12}>
-                    <Button variant="contained" color="primary" type="submit">{buttonText}</Button>
-                </Grid>
+                    <CustomButton/>
+               </Grid>
             </Grid>
         </>
     )

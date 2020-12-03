@@ -1,7 +1,6 @@
 .container {
     max-width: 1170px !important;
     margin: auto !important;
-    /*text-align: left;*/
 }
 
 .panel-button {
@@ -9,5 +8,5 @@
 }
 
 .selected-employee {
-    background: #0543;
+    background: #f0f4c3;
 }

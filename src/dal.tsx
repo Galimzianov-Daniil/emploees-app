@@ -1,4 +1,4 @@
-import {IEmployee} from "../interfaces/entities"
+import {IEmployee} from "./interfaces"
 
 
 export const IEmployeeAPI = {

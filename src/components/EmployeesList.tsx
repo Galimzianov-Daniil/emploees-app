@@ -10,18 +10,17 @@ import Table from "@material-ui/core/Table";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import {connect} from "react-redux";
-import {IStateEmployee} from "../interfaces/entities";
+import {IEmployee} from "../interfaces";
 import EmployeeRow from "./EmployeeRow";
 
 
-
-const EmployeesList: React.FC<{ employees: IStateEmployee[] }> =
+const EmployeesList: React.FC<{ employees: IEmployee[] }> =
     ({employees}) => {
 
         return (
             <>
                 <Box mb={2}>
-                    <Typography variant="h4" component="h4">Сотрудники</Typography>
+                    <Typography variant="h4">Сотрудники</Typography>
                 </Box>
                 <TableContainer component={Paper}>
                     <Table size="small" aria-label="a dense table">
@@ -31,9 +30,11 @@ const EmployeesList: React.FC<{ employees: IStateEmployee[] }> =
                             </TableRow>
                         </TableHead>
                         <TableBody>
-                            {employees.map((employee, i) => (
-                                <EmployeeRow key={employee.name + i} employee={employee}/>
-                            ))}
+                            {
+                                !!employees.length
+                                    ? employees.map((employee, i) => (<EmployeeRow key={employee.name + i} employee={employee}/>))
+                                    : <TableRow><TableCell><Typography variant="body2">Сотрудников нет</Typography></TableCell></TableRow>
+                            }
                         </TableBody>
                     </Table>
                 </TableContainer>
