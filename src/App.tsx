@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useEffect} from 'react';
+import Grid from "@material-ui/core/Grid";
+import InstrumentPanel from "./components/InstrumentPanel";
+import EmployeesList from "./components/EmployeesList";
+import CreateNewEmployee from "./components/EmployeeForm/CreateNewEmployee";
+import {getEmployees} from "./redux/reducers/employeeReducer";
+import { func } from './interfaces/common';
+import { connect } from 'react-redux';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App: React.FC<{ getEmployees: func }> = ({ getEmployees }) => {
+
+    useEffect(() => getEmployees(),[])
+
+    return (
+        <div className="App">
+            <Grid container className="container">
+                <Grid item xs={6}>
+                    <InstrumentPanel/>
+                </Grid>
+            </Grid>
+            <Grid container spacing={2} className="container">
+                <Grid item xs={6}>
+                    <EmployeesList/>
+                </Grid>
+                <Grid item xs={6}>
+                    <CreateNewEmployee/>
+                </Grid>
+            </Grid>
+        </div>
+    );
 }
 
-export default App;
+export default connect(null, {getEmployees})(App);

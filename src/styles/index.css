@@ -1,0 +1,13 @@
+.container {
+    max-width: 1170px !important;
+    margin: auto !important;
+    /*text-align: left;*/
+}
+
+.panel-button {
+    margin-right: 10px;
+}
+
+.selected-employee {
+    background: #0543;
+}

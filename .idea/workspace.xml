@@ -1,13 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f31a86bb-3615-453c-989b-c70a9c40bd7d" name="Default Changelist" comment="" />
+    <list default="true" id="f31a86bb-3615-453c-989b-c70a9c40bd7d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/EmployeeForm/CreateNewEmployee.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EmployeeForm/EmployeeFormPresentation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EmployeeForm/UpdateEmployee.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EmployeeRow.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EmployeesList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/InstrumentPanel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dal/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/common.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/entities.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/states.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/employeeReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1l2vqpAau4WZIshqVqY0pqoYA3S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -16,7 +55,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\danya\OneDrive\Рабочий стол\Архивы сайтов и макетов\emploees-app\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danya\OneDrive\Рабочий стол\Архивы сайтов и макетов\emploees-app\src\components\EmployeeForm" />
+      <recent name="C:\Users\danya\OneDrive\Рабочий стол\Архивы сайтов и макетов\emploees-app\src\components" />
+      <recent name="C:\Users\danya\OneDrive\Рабочий стол\Архивы сайтов и макетов\emploees-app\src\styles" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -27,10 +74,59 @@
       <option name="presentableId" value="Default" />
       <updated>1606808196467</updated>
       <workItem from="1606808199230" duration="132000" />
+      <workItem from="1606808349548" duration="4029000" />
+      <workItem from="1606893530203" duration="22614000" />
+      <workItem from="1606976795984" duration="8192000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="701" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606898965590">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="701" y="310" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606898965590" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606982131524">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606982131524" />
+    <state width="1899" height="287" key="GridCell.Tab.0.bottom" timestamp="1606818895421">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="287" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606818895421" />
+    <state width="1899" height="287" key="GridCell.Tab.0.center" timestamp="1606818895421">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="287" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606818895421" />
+    <state width="1899" height="287" key="GridCell.Tab.0.left" timestamp="1606818895420">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="287" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606818895420" />
+    <state width="1899" height="287" key="GridCell.Tab.0.right" timestamp="1606818895421">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="287" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606818895421" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1606901064815">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606901064815" />
+    <state x="623" y="225" width="670" height="58" key="search.everywhere.popup" timestamp="1606898114463">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="670" height="58" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606898114463" />
   </component>
 </project>
