@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Galimzianov-Daniil/emploees-app/static/css/main.191fda16.chunk.css",
-    "main.js": "/Galimzianov-Daniil/emploees-app/static/js/main.79ad2113.chunk.js",
-    "main.js.map": "/Galimzianov-Daniil/emploees-app/static/js/main.79ad2113.chunk.js.map",
-    "runtime-main.js": "/Galimzianov-Daniil/emploees-app/static/js/runtime-main.126b5e91.js",
-    "runtime-main.js.map": "/Galimzianov-Daniil/emploees-app/static/js/runtime-main.126b5e91.js.map",
-    "static/js/2.325ff639.chunk.js": "/Galimzianov-Daniil/emploees-app/static/js/2.325ff639.chunk.js",
-    "static/js/2.325ff639.chunk.js.map": "/Galimzianov-Daniil/emploees-app/static/js/2.325ff639.chunk.js.map",
-    "index.html": "/Galimzianov-Daniil/emploees-app/index.html",
-    "static/css/main.191fda16.chunk.css.map": "/Galimzianov-Daniil/emploees-app/static/css/main.191fda16.chunk.css.map",
-    "static/js/2.325ff639.chunk.js.LICENSE.txt": "/Galimzianov-Daniil/emploees-app/static/js/2.325ff639.chunk.js.LICENSE.txt"
+    "main.css": "/emploees-app/static/css/main.191fda16.chunk.css",
+    "main.js": "/emploees-app/static/js/main.79ad2113.chunk.js",
+    "main.js.map": "/emploees-app/static/js/main.79ad2113.chunk.js.map",
+    "runtime-main.js": "/emploees-app/static/js/runtime-main.cc13aaf8.js",
+    "runtime-main.js.map": "/emploees-app/static/js/runtime-main.cc13aaf8.js.map",
+    "static/js/2.325ff639.chunk.js": "/emploees-app/static/js/2.325ff639.chunk.js",
+    "static/js/2.325ff639.chunk.js.map": "/emploees-app/static/js/2.325ff639.chunk.js.map",
+    "index.html": "/emploees-app/index.html",
+    "static/css/main.191fda16.chunk.css.map": "/emploees-app/static/css/main.191fda16.chunk.css.map",
+    "static/js/2.325ff639.chunk.js.LICENSE.txt": "/emploees-app/static/js/2.325ff639.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.126b5e91.js",
+    "static/js/runtime-main.cc13aaf8.js",
     "static/js/2.325ff639.chunk.js",
     "static/css/main.191fda16.chunk.css",
     "static/js/main.79ad2113.chunk.js"
