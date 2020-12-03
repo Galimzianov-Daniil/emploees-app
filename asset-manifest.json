@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/emploees-app/static/css/main.191fda16.chunk.css",
-    "main.js": "/emploees-app/static/js/main.79ad2113.chunk.js",
-    "main.js.map": "/emploees-app/static/js/main.79ad2113.chunk.js.map",
+    "main.css": "/emploees-app/static/css/main.b080cdfe.chunk.css",
+    "main.js": "/emploees-app/static/js/main.673fad49.chunk.js",
+    "main.js.map": "/emploees-app/static/js/main.673fad49.chunk.js.map",
     "runtime-main.js": "/emploees-app/static/js/runtime-main.cc13aaf8.js",
     "runtime-main.js.map": "/emploees-app/static/js/runtime-main.cc13aaf8.js.map",
-    "static/js/2.325ff639.chunk.js": "/emploees-app/static/js/2.325ff639.chunk.js",
-    "static/js/2.325ff639.chunk.js.map": "/emploees-app/static/js/2.325ff639.chunk.js.map",
+    "static/js/2.3648b72a.chunk.js": "/emploees-app/static/js/2.3648b72a.chunk.js",
+    "static/js/2.3648b72a.chunk.js.map": "/emploees-app/static/js/2.3648b72a.chunk.js.map",
     "index.html": "/emploees-app/index.html",
-    "static/css/main.191fda16.chunk.css.map": "/emploees-app/static/css/main.191fda16.chunk.css.map",
-    "static/js/2.325ff639.chunk.js.LICENSE.txt": "/emploees-app/static/js/2.325ff639.chunk.js.LICENSE.txt"
+    "static/css/main.b080cdfe.chunk.css.map": "/emploees-app/static/css/main.b080cdfe.chunk.css.map",
+    "static/js/2.3648b72a.chunk.js.LICENSE.txt": "/emploees-app/static/js/2.3648b72a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cc13aaf8.js",
-    "static/js/2.325ff639.chunk.js",
-    "static/css/main.191fda16.chunk.css",
-    "static/js/main.79ad2113.chunk.js"
+    "static/js/2.3648b72a.chunk.js",
+    "static/css/main.b080cdfe.chunk.css",
+    "static/js/main.673fad49.chunk.js"
   ]
 }

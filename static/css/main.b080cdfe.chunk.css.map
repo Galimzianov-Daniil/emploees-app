@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,WACI,0BAA4B,CAC5B,qBACJ,CAEA,cACI,iBACJ,CAEA,mBACI,kBACJ","file":"main.b080cdfe.chunk.css","sourcesContent":[".container {\n    max-width: 1170px !important;\n    margin: auto !important;\n}\n\n.panel-button {\n    margin-right: 10px;\n}\n\n.selected-employee {\n    background: #f0f4c3;\n}\n"]}
