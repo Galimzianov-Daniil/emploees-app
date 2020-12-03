@@ -37,7 +37,6 @@ const UpdateEmployee: React.FC<IUpdateEmployeeProps> = ({ employee, updateEmploy
     return (
         <EmployeeForm
             CustomButton={() => <Button disabled={!isChanged} variant="contained" color="primary" type="submit">Обновить</Button>}
-            buttonText="Обновить"
             handleChange={handleChange}
             handleCheckbox={handleCheckbox}
             handleSubmit={handleSubmit}

@@ -39,7 +39,6 @@ const CreateNewEmployee: React.FC<ICreateNewEmployeeProps> = ({createEmployee}) 
     return (
         <EmployeeForm
             CustomButton={() => <Button variant="contained" color="primary" type="submit">Создать</Button>}
-            buttonText="Создать"
             handleChange={handleChange}
             handleCheckbox={handleCheckbox}
             handleSubmit={handleSubmit}
